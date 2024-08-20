@@ -36,10 +36,10 @@ const WelcomePage = () => {
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
           <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-            Digital Currency: Empowering <br /> the Future of Finance
+            Bit Pulse:   <br /> Crypto on the clock !! 
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Embark on a journey into the world of digital currency. Seamlessly trade cryptocurrencies on our platform.
+          Track your favourite coins in real-time with live updates. Dive into the dashboard for instant insights!
           </p>
           {!currentAccount && (
             <button
@@ -97,7 +97,7 @@ const WelcomePage = () => {
                 <button
                   type="button"
                   onClick={handleSubmit}
-                  className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] rounded-full cursor-pointer"
+                  className="text-black w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] hover:text-white rounded-full cursor-pointer"
                 >
                   Initiate Transfer
                 </button>

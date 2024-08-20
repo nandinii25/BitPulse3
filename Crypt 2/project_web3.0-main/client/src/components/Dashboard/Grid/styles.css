@@ -1,12 +1,19 @@
+:root {
+  --wheat: #f5deb3;
+  --pink: #fff4f2;
+  --black: #000000; /* Added black variable */
+}
+
 .grid {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   width: 250px;
   padding: 2rem;
-  background-color: var(--darkgrey);
+  color: black;
+  background-color: var(--pink);
   border-radius: 0.8rem;
-  border: 2px solid var(--darkgrey);
+  border: 2px solid var(--pink);
   cursor: pointer;
 }
 
@@ -66,7 +73,7 @@
 
 .coin-symbol {
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--black); /* Changed from var(--white) to var(--black) */
   font-weight: 600;
   margin: 0rem;
 }
@@ -74,7 +81,7 @@
 .coin-name {
   margin: 0;
   font-weight: 400;
-  color: var(--white);
+  color: var(--black); /* Changed from var(--white) to var(--black) */
   font-size: 0.8rem;
 }
 
@@ -96,7 +103,7 @@
 .price-chip:hover,
 .chip-icon:hover {
   background-color: var(--green);
-  color: var(--white);
+  color: var(--black); /* Changed from var(--white) to var(--black) */
   transition: all 0.3s;
 }
 
@@ -117,7 +124,7 @@
 
 .red:hover {
   background-color: var(--red) !important;
-  color: var(--white) !important;
+  color: var(--black) !important; /* Changed from var(--white) to var(--black) */
   transition: all 0.3s;
 }
 

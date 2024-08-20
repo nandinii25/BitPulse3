@@ -20,9 +20,9 @@ const TransactionsCard = ({ addressTo, addressFrom, message, amount }) => {
               <p className="text-white text-lg">To: {shortenAddress(addressTo)}</p>
             </a>
           </div>
-          <p className="text-white text-lg">Amount: {amount} ETH</p>
+          <p className="text-black text-lg">Amount: {amount} ETH</p>
           {message && (
-            <p className="text-white text-lg">Message: {message}</p>
+            <p className="text-black text-lg">Message: {message}</p>
           )}
         </div>
       </div>
@@ -42,13 +42,7 @@ const Transactions = () => {
 
   return (
     <div className={`flex w-full justify-center items-center gradient-bg-transactions ${animate ? "fade-in" : ""}`}>
-      <div className="flex flex-col md:p-12 py-12 px-6">
-        <h3 className="text-white text-4xl text-center my-4">
-          {currentAccount ? "Latest Transactions" : "Connect your account to see the latest transactions"}
-        </h3>
-        
-       
-      </div>
+
     </div>
   );
 };

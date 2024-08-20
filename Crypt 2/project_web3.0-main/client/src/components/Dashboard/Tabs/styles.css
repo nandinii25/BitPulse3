@@ -7,13 +7,6 @@
   gap: 1rem;
 }
 
-.list-flex {
-  width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media only screen and (max-width: 600px) {
   .list-flex {
     width: 100%;
