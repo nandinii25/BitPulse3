@@ -30,8 +30,8 @@ export default function TabsComponent({ coins, setSearch }) {
     <TabContext value={value}>
       <div style={{ borderBottom: 1, borderColor: "divider" }}>
         <TabList onChange={handleChange} variant="fullWidth">
-          <Tab label="Grid" value="grid" sx={style} />
-          <Tab label="List" value="list" sx={style} />
+          <Tab label="DashBoard" value="grid" sx={style} />
+
         </TabList>
       </div>
       <TabPanel value="grid">
