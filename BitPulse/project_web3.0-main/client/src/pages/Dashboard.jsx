@@ -68,7 +68,7 @@ function Dashboard() {
 
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       {loading ? (
         <Loader />
       ) : (
