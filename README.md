@@ -1,6 +1,6 @@
 
 # BitPulse
-![HomePage](image.png)
+![HomePage](bitpulse.png)
 
 ## Setup and Run
 Clone the repository, then run:
