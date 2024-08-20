@@ -45,7 +45,7 @@ const WelcomePage = () => {
             <button
               type="button"
               onClick={connectWallet}
-              className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
+              className="flex flex-row justify-center items-center my-5 bg-[#674188] p-3 rounded-full cursor-pointer hover:bg-[#3a1e53]"
             >
               <AiFillPlayCircle className="text-white mr-2" />
               <p className="text-white text-base font-semibold">
@@ -55,16 +55,6 @@ const WelcomePage = () => {
             
           )}
         </div>
-        <div button
-              type="button"
-              onClick={connectWallet}
-              className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
-            >
-              <AiFillPlayCircle className="text-white mr-2" />
-              <p className="text-white text-base font-semibold">
-                Watchlist
-              </p>
-           </div>
 
         <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
           <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card .white-glassmorphism ">
@@ -97,7 +87,7 @@ const WelcomePage = () => {
                 <button
                   type="button"
                   onClick={handleSubmit}
-                  className="text-black w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] hover:text-white rounded-full cursor-pointer"
+                  className="text-black w-full mt-2 border-[1px] p-2 border-[#674188] hover:bg-[#3a1e53] hover:text-white rounded-full cursor-pointer"
                 >
                   Initiate Transfer
                 </button>
