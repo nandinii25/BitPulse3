@@ -1,8 +1,8 @@
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import WelcomePage from "../components/Welcome";
-import Services from "../components/Services";
+// import Services from "../components/Services";
 import Transactions from "../components/Transactions";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import Dashboard from "./Dashboard";
 
 const Home = () => (
