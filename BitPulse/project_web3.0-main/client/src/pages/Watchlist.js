@@ -38,9 +38,6 @@ function Watchlist() {
               margin: "2rem",
             }}
           >
-            <a href="/dashboard">
-              <Button text="Dashboard" />
-            </a>
           </div>
         </div>
       )}
