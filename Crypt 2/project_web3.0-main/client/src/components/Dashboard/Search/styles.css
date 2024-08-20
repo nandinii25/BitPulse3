@@ -1,0 +1,41 @@
+:root {
+  --dark-bg: #121212;
+  --darkgrey: #1e1e1e;
+  --grey: #b3b3b3;
+  --white: #ffffff;
+  --border-grey: #4a4a4a;
+}
+
+.search-flex {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--darkgrey);
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.search-input {
+  background-color: var(--darkgrey);
+  color: var(--white); /* Make the text color lighter for contrast */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border: 1px solid var(--border-grey);
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+  color: var(--white); /* Ensures focused input text remains light */
+}
+
+.search-flex:hover {
+  background-color: #2a2a2a; /* Slightly lighter hover effect to indicate interaction */
+}
